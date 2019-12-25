@@ -35,7 +35,7 @@ test('Magician', () => {
   expect(new Magician('Hero')).toEqual(expected);
 });
 
-test('Create Undead', () => {
+test('Undead', () => {
   const expected = {
     name: 'Hero',
     health: 100,
